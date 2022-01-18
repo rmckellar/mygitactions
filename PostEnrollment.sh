@@ -42,3 +42,5 @@ done
 ##########################################
 echo "Installing depNotify and launching"
 ${jamfbinary} policy -event "installdepNotify"
+
+exit 0
