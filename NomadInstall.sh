@@ -76,5 +76,6 @@ if [ $? -ne 0 ]; then
     log "launchctl error: The LaunchAgent failed to load"; exit 1
 fi
 
+
 log "NoMAD.app install complete"
 exit 0
