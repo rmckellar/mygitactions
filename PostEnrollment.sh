@@ -28,7 +28,7 @@ while true
 do
 loggedinuser=$(/bin/ls -l /dev/console | /usr/bin/awk '{ print $3 }')
 
-echo $loggedinuser
+echo "$loggedinuser"
 
     if [ "${loggedinuser}" == "root" ] || [ "${loggedinuser}" == "_mbsetupuser" ]; then
     echo "is root or mbsetupuser"
